@@ -1,0 +1,42 @@
+{
+  "name": "medicare-ai",
+  "version": "1.0.0",
+  "description": "Premium Healthcare Technology Platform - AI-powered prescription scanner, medicine reminders, health analytics, and family notification system",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "build": "echo 'Build optimized version'",
+    "test": "echo 'Running tests'"
+  },
+  "keywords": [
+    "healthcare",
+    "ai",
+    "prescription",
+    "medicine",
+    "health-tracking",
+    "telemedicine"
+  ],
+  "author": "MediCare AI Team",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "dotenv": "^16.0.3",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2",
+    "axios": "^1.4.0",
+    "multer": "^1.4.5-lts.1",
+    "tesseract.js": "^4.1.1",
+    "openai": "^3.3.0",
+    "twilio": "^3.83.0",
+    "stripe": "^12.4.0",
+    "jsonwebtoken": "^9.0.0",
+    "bcryptjs": "^2.4.3",
+    "mongoose": "^7.2.0",
+    "express-validator": "^7.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
