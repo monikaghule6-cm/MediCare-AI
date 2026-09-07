@@ -1,0 +1,10 @@
+/* Glassmorphism helpers */
+.glass{
+  background: rgba(255,255,255,0.04);
+  backdrop-filter: blur(8px) saturate(120%);
+  border-radius:12px;
+  border: 1px solid rgba(255,255,255,0.06);
+  padding:1rem;
+}
+.card{padding:1rem;border-radius:14px;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));box-shadow: 0 6px 20px rgba(2,6,23,0.6)}
+.hero .glass{display:inline-block;padding:2rem}
